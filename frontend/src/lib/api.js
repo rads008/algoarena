@@ -1,5 +1,5 @@
 // frontend/src/lib/api.js
-const BASE = process.env.REACT_APP_API_URL ?? "/api";
+const BASE = process.env.REACT_APP_API_URL ?? "https://algoarena-zess.onrender.com/api";
 
 async function get(path) {
   const res = await fetch(`${BASE}${path}`);
