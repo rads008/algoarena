@@ -1,0 +1,12 @@
+{
+  "name": "algoarena",
+  "version": "1.0.0",
+  "description": "AlgoArena — Gamified LeetCode tracker",
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "sync": "cd backend && node services/syncJob.js"
+  },
+  "private": true
+}
