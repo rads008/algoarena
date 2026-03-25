@@ -199,4 +199,4 @@ LeetCode's GraphQL API is public but unofficial:
 
 ---
 
-Made with ❤️ for Radhika, Simran & Sugandha 🚀
+
